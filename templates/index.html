@@ -8,6 +8,9 @@
 {% for surfer in surfers %}
 
 <div class="row featurette">
+
+    {% if loop.index % 2 != 0 %}
+
     <div class="col-md-7">
         <h3>{{ surfer.name }}</h3>
         <p>{{ surfer.description }}</p>
@@ -15,8 +18,26 @@
     <div class="col-md-5">
         <img src="{{ surfer.img_source }}" alt="{{ surfer.name }}">
     </div>
+
+    {% else %}
+
+    <div class="col-md-5">
+        <img src="{{ surfer.img_source }}" alt="{{ surfer.name }}">
+    </div>
+    <div class="col-md-7">
+        <h3>{{ surfer.name }}</h3>
+        <p>{{ surfer.description }}</p>
+    </div>
+
+    {% endif %}
+
 </div>
+
+{% if loop.index != 7 %}
+
 <hr class="featurette-divider">
+
+{% endif %}
 
 {% endfor %}
 

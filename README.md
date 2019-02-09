@@ -1,5 +1,9 @@
 # Flask Test
 
+Small project to test a Flask framework.
+
+Project is deployed to [Heroku](https://www.heroku.com/) and can be viewed [here].
+
 ## Initial steps
 
 1. Install Flask: `sudo pip3 install Flask`
@@ -11,4 +15,8 @@
 The decorator is used to link elements, for example two html pages. To achieve it, we need to do something called routing. You've already been introduced to routing in Flask because we used this decorator here, which we discussed before, and the "/". So when we go to the "/" on a top-level of our site, it then returns the template from our index() function. The root decorator binds the index() function to itself so that whenever that root is called, the function is called.
 
 
+# Resources & Credits
 
+- [Wikipedia](https://en.wikipedia.org/wiki/Main_Page).
+- [Stadiumtalk's](https://www.stadiumtalk.com/s/30-greatest-surfers-all-time-d5b3a7ac8d154562) article by Craig Lazzeretti called "30 Greatest Surfers All Time".
+- [Magicseaweed's](https://magicseaweed.com/news/msws-top-50-trending-surfers-of-2018/11117/) article called "MSW's Top 50 Trending Surfers of 2018".

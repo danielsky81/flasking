@@ -5,21 +5,19 @@
 
 <hr>
 
+{% for surfer in surfers %}
+
 <div class="row featurette">
     <div class="col-md-7">
-        <h3>Kelly Slater</h3>
-        <p>In terms of individual accomplishments, the American is hands down the greatest surfer ever. Perhaps only swimmer Michael Phelps has so dominated an individual sport the way Kelly Slater has. Slater won an unprecedented 11 world titles during his career, becoming both the youngest and oldest men's champion in history, to go along with his 55 career victories. He revolutionized the sport with aerial moves the likes of which had never been seen before. His legacy extends beyond individual achievements, as he also pioneered a wave pool technology that creates manmade waves suitable for surfing, with the potential to expand the sport beyond the oceans.</p>
+        <h3>{{ surfer.name }}</h3>
+        <p>{{ surfer.description }}</p>
     </div>
     <div class="col-md-5">
-        <img src="https://cdn.surfer.com/uploads/2011/02/slater_ellis1.jpg" alt="Kelly Slater">
+        <img src="{{ surfer.img_source }}" alt="{{ surfer.name }}">
     </div>
-    <div class="col-md-5">
-            <img src="https://img.huffingtonpost.com/asset/55d503631d00002f0014555f.jpeg?ops=scalefit_720_noupscale" alt="Laird Hamilton">
-        </div>
-    <div class="col-md-7">
-            <h3>Laird Hamilton</h3>
-            <p>One of the sport's transcendent figures, Laird Hamilton makes our list not for his individual surfing honors but his role as a pioneer of the sport. Hamilton is known as an inventor, innovator, author, stunt man, model, producer, television host, and fitness and nutrition expert. He is credited with the evolution of surfing into a big-wave sport through tow-in surfing, mostly notably at the reef known as 'Jaws' off Maui, along with the growth of such popular crossover sports as stand-up paddle boarding and hydrofoil boarding.</p>
-        </div>
 </div>
+<hr class="featurette-divider">
+
+{% endfor %}
 
 {% endblock %}

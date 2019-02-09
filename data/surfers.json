@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Kelly Slater",
+        "description": "In terms of individual accomplishments, the American is hands down the greatest surfer ever. Perhaps only swimmer Michael Phelps has so dominated an individual sport the way Kelly Slater has. Slater won an unprecedented 11 world titles during his career, becoming both the youngest and oldest men's champion in history, to go along with his 55 career victories. He revolutionized the sport with aerial moves the likes of which had never been seen before. His legacy extends beyond individual achievements, as he also pioneered a wave pool technology that creates manmade waves suitable for surfing, with the potential to expand the sport beyond the oceans.",
+        "img_source": "https://cdn.surfer.com/uploads/2011/02/slater_ellis1.jpg"
+    },
+    {
+        "name": "Laird Hamilton",
+        "description": "One of the sport's transcendent figures, Laird Hamilton makes our list not for his individual surfing honors but his role as a pioneer of the sport. Hamilton is known as an inventor, innovator, author, stunt man, model, producer, television host, and fitness and nutrition expert. He is credited with the evolution of surfing into a big-wave sport through tow-in surfing, mostly notably at the reef known as 'Jaws' off Maui, along with the growth of such popular crossover sports as stand-up paddle boarding and hydrofoil boarding.",
+        "img_source": "https://img.huffingtonpost.com/asset/55d503631d00002f0014555f.jpeg?ops=scalefit_720_noupscale"
+    },
+    {
+        "name": "John John Florence",
+        "description": "The two-time reigning world champion, John John Florence has a chance to climb this list before all is said and done. The Hawaiian is one of only five surfers in men's Championship Tour history to win his first two world titles in consecutive fashion (not even Kelly Slater can claim that feat). At 25, Florence  is already known as one of the most dominant pipe surfers of his era. He is also carving out a name for himself with his film projects.",
+        "img_source": "https://www.surfertoday.com/images/stories/johnjohnair.jpg"
+    },
+    {
+        "name": "Gabriel Medina",
+        "description": "With his 6.2 million Instagram followers, the Brazilian is considered far and away the most popular surfer on the Championship Tour today, and has a difficult time traveling anywhere in Brazil without being recognized. Known for his high-flying acrobatics, the 24-year-old Gabriel Medina won the 2014 world championship.",
+        "img_source": "https://www.surfertoday.com/images/stories/gabrielmedina31.jpg"
+    },
+    {
+        "name": "Garrett McNamara",
+        "description": "One of the pioneers of tow surfing that enabled surfers to tackle giant waves once thought impossible to surf, Garrett McNamara earned a place in the Guinness Book of World Records in 2011 when he rode a 78-foot wave off the coast of Nazare, Portugal. A year later, he conquered another monster off Nazare, this one estimated at close to 100 feet, but it was not entered for an official record.",
+        "img_source": "https://timedotcom.files.wordpress.com/2013/01/surfing.jpg"
+    },
+    {
+        "name": "Mick Fanning",
+        "description": "One of Australia's surfing legends, Mick Fanning wracked up 22 Championship Tour wins during his career, 11 top  5 finishes and three world titles, most recently in 2013. He also overcame his share of adversity. He lost his brother to an auto accident, returned from a devastating injury in which his entire hamstring muscle was torn off his pelvic bone, and survived a great white shark attack.",
+        "img_source": "https://media.stadiumtalk.com/99/c2/99c29b8181ff4dd9a40ab3095803f3d0.jpg"
+    },
+    {
+        "name": "Layne Beachley",
+        "description": "The only seven-time women's world champion, this Aussie is the most accomplished woman in the history of the sport. Layne Beachley won six consecutive world titles from 1998 to 2003 — the only time that has ever been done by a man or woman — and added her final one in 2006. In 2004, she competed against men at the Australia Open, one of the few times in history a woman competed in a men's surfing event.",
+        "img_source": "https://i.dailymail.co.uk/i/pix/2016/10/01/23/390135FB00000578-3817647-image-a-9_1475359942548.jpg"
+    }
+]

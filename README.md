@@ -14,6 +14,11 @@ Project is deployed to [Heroku](https://www.heroku.com/) and can be viewed [here
 
 The decorator is used to link elements, for example two html pages. To achieve it, we need to do something called routing. You've already been introduced to routing in Flask because we used this decorator here, which we discussed before, and the "/". So when we go to the "/" on a top-level of our site, it then returns the template from our index() function. The root decorator binds the index() function to itself so that whenever that root is called, the function is called.
 
+## Deployement
+
+- One of many steps required are as follows:
+    - Add "requirements.txt" file
+    - Add "Procfile" via CLI `$ echo web: python run.py > Procfile`
 
 # Resources & Credits
 

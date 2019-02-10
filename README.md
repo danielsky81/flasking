@@ -2,7 +2,7 @@
 
 Small project to test a Flask framework.
 
-Project is deployed to [Heroku](https://www.heroku.com/) and can be viewed [here].
+Project is deployed to [Heroku](https://www.heroku.com/) and can be viewed [here](https://surfing-legends.herokuapp.com/).
 
 ## Initial steps
 
@@ -19,6 +19,9 @@ The decorator is used to link elements, for example two html pages. To achieve i
 - One of many steps required are as follows:
     - Add "requirements.txt" file
     - Add "Procfile" via CLI `$ echo web: python run.py > Procfile`
+- To avoid the error in deployment a web process needs to be started via `$ heroku ps:scale web=1`
+- Then, we need to set the `IP` and `PORT` variables.
+- Finally "Restart all dynos" so restarting to container of the website.
 
 # Resources & Credits
 
